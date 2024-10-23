@@ -11,7 +11,7 @@ window.onload = function() {
     "El fantasma",
     "Mi hermano disfrazado",
     "La bruja vecina",
-    "El zombie"
+    "El zombie",
   ];
   let action = ["asustó", "robó", "encantó", "desapareció"];
   let what = ["mis caramelos", "mi disfraz", "la calabaza", "mi linterna"];
@@ -19,7 +19,7 @@ window.onload = function() {
     "antes de la fiesta",
     "cuando estaba buscando dulces",
     "mientras decoraba",
-    "durante la noche de brujas"
+    "durante la noche de brujas",
   ];
   function generador() {
     let randonwho = who[Math.floor(Math.random() * who.length)];
