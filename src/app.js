@@ -6,7 +6,7 @@ import "./assets/img/rigo-baby.jpg";
 import "./assets/img/4geeks.ico";
 
 window.onload = function() {
-  //write your code here
+  
   let who = [
     "El fantasma",
     "Mi hermano disfrazado",
@@ -29,7 +29,6 @@ window.onload = function() {
 
     return randonwho + " " + randonaction + " " + randonwhat + " " + randonwhen;
   }
-  //console.log("Hello Rigo from the console!");
   let parrafo = document.getElementById("excuse");
   parrafo.innerText = generador();
 };
